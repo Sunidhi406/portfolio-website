@@ -1,0 +1,178 @@
+.header{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    scroll-behavior:smooth;
+    font-family:'Arial';
+  }
+  .header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100%;
+  }
+  .navbar{
+    background-color: yellowgreen;
+    color: rgb(223, 252, 254);
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  .navbar a{
+     text-decoration:none;
+  }
+  .nav-logo{
+    height:70px;
+    width: 95px;
+  }
+  .logo{
+    background-image:url("logo.jpg");
+    height:69px;
+    width: 95px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .border{
+    border: 2px solid transparent;
+  }
+  .border:hover{
+    border: 2px solid black;
+  
+  }
+  .name{
+    font-size:1.7rem;
+    color:whitesmoke;
+    letter-spacing: 1.5px;
+    margin: auto;
+    text-shadow : 3px 3px black;
+    font-weight: 800;
+  }
+  .portfolio{
+    max-width:110%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+  .home{
+    width:11%;
+    margin:0.5rem;
+    font-size: 1.2rem;
+    text-shadow : 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+  }
+  .About{
+    width:11%;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    text-shadow : 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+  
+  }
+  .education{
+    width:11%;
+    margin:0.5rem;
+    font-size: 1.2rem;
+    text-shadow : 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+  }
+  .skills{
+    width:11%;
+    margin:0.5rem;
+    font-size: 1.2rem;
+    text-shadow : 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+  }
+  .contact{
+    width:11%;
+    margin:0.5rem;
+    font-size: 1.2rem;
+    text-shadow : 1px 1px black;
+    font-weight: 600;
+    text-align: center;
+  }
+
+body{
+    background-color: #081b29;
+    color:rgb(196, 196, 190);
+}
+.contact-head{
+    font-size: 2rem;
+    text-align: center;
+    color:darkgoldenrod;
+    text-shadow: 2px 2px black;
+    margin-top: 7%;
+    display:flex;
+    justify-content: center;
+}
+.para{
+    text-align: center;
+
+}
+.user-info{
+    text-align: center;
+    font-size: 2rem;
+    margin:4%;
+    color:darkgoldenrod;
+}
+.section{
+    text-align: center;
+}
+.input-field{
+    margin:4% 6%;
+    background-color: #081b29;
+    
+}
+.button{
+    margin: 3rem;
+}
+input{
+    background-color: transparent;
+    border: 2px solid yellowgreen;
+    width:60%;
+    height:4rem;
+    text-align: center;
+    color:white;
+    box-shadow: 0 0 5px 3px yellowgreen;
+    font-size: 1.8rem;
+}
+
+textarea{
+    background-color: transparent;
+    border: 2px solid yellowgreen;
+    width:60%;
+    height:2.8%;
+    text-align: center;
+    color:white;
+    resize:none;
+    box-shadow: 0 0 5px 3px yellowgreen;
+}
+.button{
+ display:flex;
+ justify-content: center;
+
+}
+.large-button{
+    width:35%;
+    padding:1rem;
+    font-size:1.4rem;
+    border-radius:8px;
+    cursor:pointer;
+    background-color: darkgoldenrod ;
+    color:black;
+    border: 2px solid black;
+    font-weight:170;
+}
+.large-button:hover{
+    box-shadow: 0 0 5px 3px silver;
+}
+    
+    
+
+
